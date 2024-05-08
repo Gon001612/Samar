@@ -1,0 +1,60 @@
+header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.header--content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  margin-right: 30px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 55px 15px;
+}
+
+nav ul a {
+  color: black;
+  font-size: 0.8rem;
+  font-weight: 500;
+  transition: all 0.5s;
+}
+
+/* ainmation tag a */
+.header--content a span {
+  display: inline-block;
+}
+.header--content a:hover {
+  color: #f55f8d;
+}
+
+.header--content a:hover span {
+  animation: upToDown 0.4s;
+  transition: all 0.1s;
+}
+
+@keyframes upToDown {
+  49% {
+    transform: translateY(100%);
+  }
+
+  50% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  51% {
+    opacity: 1;
+  }
+}

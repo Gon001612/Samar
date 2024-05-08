@@ -1,0 +1,53 @@
+.aboutUs {
+  background-image: url(../images/bg15.png);
+  background-size: 100%;
+  background-position: center right;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  padding: 80px 0;
+}
+
+.aboutUs--content {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+.aboutUs--left {
+  width: 50%;
+  padding: 100px 30px;
+  position: absolute;
+  left: -50px;
+}
+
+.aboutUs--left img {
+  width: 100%;
+  border-radius: 0 100px 100px 0;
+}
+
+.aboutUs--right {
+  width: 50%;
+}
+
+.aboutUs--right .articel p {
+  font-size: 0.875rem;
+  margin-bottom: 20px;
+}
+
+.aboutUs--right .articel ul p {
+  display: inline;
+  margin-bottom: 20px;
+}
+
+.aboutUs--right .articel ul i {
+  font-size: 1.5rem;
+  color: #f55f8d;
+}
+
+.aboutUs--right .articel ul li {
+  margin-bottom: 10px;
+}
+
+.aboutUs--right .btn {
+  margin-top: 50px;
+}

@@ -1,0 +1,41 @@
+.services {
+  background-image: url(../images/bg2.png);
+  background-size: cover;
+  background-position: top center;
+  text-align: center;
+}
+
+.services .services--content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+  margin-top: 50px;
+}
+
+.services--content .card {
+  background-color: white;
+  padding: 30px 45px;
+  border-radius: 5px;
+  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.7s;
+  /* border-image: 1 round; */
+  border: 3px solid transparent;
+}
+
+.services--content .card img {
+  display: block;
+  width: 100%;
+}
+
+.services--content .card h2 {
+  color: black;
+  margin: 20px 0;
+}
+.services--content .card p {
+  font-size: 0.8rem;
+}
+
+.services--content .card:hover {
+  transform: translateY(-30px);
+  border-image: url(../images/br.png) 1 round;
+}
